@@ -31,7 +31,9 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array
+  array.collect do |word|
+    word + "s"
+ end
 end
   
 #   array.sort {|num| i[2] <=> i[0] }
