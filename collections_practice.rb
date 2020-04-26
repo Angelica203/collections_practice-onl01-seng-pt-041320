@@ -32,7 +32,7 @@ end
 
 def sum_array(array)
   array.collect do |word|
-    word + "s"
+    word + "
  end
 end
   
