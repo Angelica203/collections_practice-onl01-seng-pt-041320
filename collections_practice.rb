@@ -31,7 +31,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.sum
+  array
 end
   
 #   array.sort {|num| i[2] <=> i[0] }
