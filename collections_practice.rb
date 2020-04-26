@@ -31,10 +31,14 @@ def find_a(array)
 end
 
 def sum_array(array)
+ end
+ 
+ def add_s(array) 
   array.collect do |word|
-    word + "
+    word + "s"
  end
 end
   
+
 #   array.sort {|num| i[2] <=> i[0] }
 # end
