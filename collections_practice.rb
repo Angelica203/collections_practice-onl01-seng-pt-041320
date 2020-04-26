@@ -10,7 +10,7 @@ def sort_array_char_count(array)
   result = array.sort { |left, right| left.length <=> right.length}
 end
 
-def swao_elemnt
+def swap_elements
 
   
 #   array.sort {|num| i[2] <=> i[0] }
