@@ -32,8 +32,12 @@ end
 
 def sum_array(array)
   sum = 0
-  
- end
+  array.each do |num|
+    sum += num
+  end
+  sum
+end 
+ 
  
  def add_s(array) 
   array.collect do |word|
