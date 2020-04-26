@@ -7,5 +7,5 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  array.sort {|i| i[2] <=> i[0] }
+  array.sort {|num| i[2] <=> i[0] }
 end
